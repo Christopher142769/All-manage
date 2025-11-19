@@ -2107,7 +2107,7 @@ function renderHome() {
   // MISE À JOUR : Gestion du layout et de la responsivité
   const renderDashboardLayout = (isCompany) => {
     const currentBoutique = boutiques.find(b => b.id === selectedBoutiqueId);
-    const dashboardTitle = isCompany ? ` ${company.name}` : ` ${boutique.name}`;
+    const dashboardTitle = isCompany ? `Dashboard ${company.name}` : `Dashboard ${boutique.name}`;
     
     const isSidebarFullyOpen = isSidebarOpen;
 
@@ -2198,7 +2198,7 @@ function renderHome() {
                     
                     <h1 className="h5 mb-0 fw-bold" style={{color: 'var(--text-main)'}}>
                         <span className="text-secondary">{isCompany ? 'ENTREPRISE' : 'GÉRANT'} / </span> 
-                        {dashboardTitle}
+                        {/* {dashboardTitle} */}
                     </h1>
                     
                     {/* Bouton pour ouvrir la sélection de thème (dans le Header) */}
