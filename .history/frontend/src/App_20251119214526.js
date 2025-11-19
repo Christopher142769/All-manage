@@ -27,7 +27,7 @@ ChartJS.register(
 // VARIABLES & STYLES GLOBALES
 // ----------------------------------------------------
 
-const API_URL = '/api';
+const API_URL = 'https://all-manage.onrender.com/api';
 const SIDEBAR_WIDTH = '280px'; 
 
 // SIMULATION DU LOGO ALL MANAGE (remplacez par votre Base64 réel)
